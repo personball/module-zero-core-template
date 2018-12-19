@@ -1,33 +1,35 @@
-# Introduction
+# ASP.NET Boilerplate VueJS Template
 
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
+The Vue.js integration for ABP Boilerplate framework. This template is built on Vue+iview+Typescript.
 
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
- 
-User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/AdminBSBMaterialDesign).
- 
-# Download
+![](_screenshots/roles.png)
 
-Create & download your project from https://aspnetboilerplate.com/Templates
+## Getting Started
 
-# Screenshots
+### Installing
 
-#### Sample Dashboard Page
-![](_screenshots/module-zero-core-template-ui-home.png)
 
-#### User Creation Modal
-![](_screenshots/module-zero-core-template-ui-user-create-modal.png)
+```sh
+cd vue
+yarn install 
+```
 
-#### Login Page
+And then start
 
-![](_screenshots/module-zero-core-template-ui-login.png)
+```
+yarn serve
+```
 
-# Documentation
+## Deployment
 
-* [ASP.NET Core MVC & jQuery version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
+```sh
+yarn build
+```
 
-# License
+## Built With
 
-[MIT](LICENSE).
+* [Vue](https://vuejs.org/) - The Progressive JavaScript Framework
+* [Typescript](https://www.typescriptlang.org/) - Used for static typing
+* [Vuex](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications. 
+* [iView](https://www.iviewui.com/) - A High quality and rich functions, friendly APIs, free and flexible UI Toolkit based on Vue.js.
+
